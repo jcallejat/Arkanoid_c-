@@ -1,0 +1,22 @@
+#include "stdafx.h"
+#include <stdlib.h>
+#include <string.h>
+#include <iostream>
+
+typedef struct _bloque {
+	int posx;
+	int posy;
+	bool activo;
+};
+
+typedef struct _bola {
+	int posx;
+	int posy;
+	int vx;
+	int vy;
+};
+
+void main (){
+	system ("cls");
+	system ("pause");
+}
